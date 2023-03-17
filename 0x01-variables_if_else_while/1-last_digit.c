@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  * main - Entry point
- *Discription: "check for number if it is n is greater than 5, is less than 6, or is 0 "
  * Return: Always 0 (Success)
  */
 int main(void)
