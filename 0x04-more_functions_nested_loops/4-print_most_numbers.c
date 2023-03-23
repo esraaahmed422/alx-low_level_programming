@@ -13,14 +13,14 @@ void print_numbers(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		if ((i != 2) && (i != 4))
-		{
-			_putchar(i + '0');
-		}
-		else
-		{
-			continue;
-		}
+	if (i == 2 || i == 4)
+	{
+	continue;
+	}
+	else
+	{
+	_putchar(i + '0');
+	}
 	}
 	_putchar('\n');
 }
